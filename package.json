@@ -1,0 +1,36 @@
+{
+  "name": "prisma-tutorial",
+  "version": "1.0.0",
+  "description": "Tuorial wir Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./build/",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "argon2": "^0.41.1",
+    "connect-redis": "^7.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "helmet": "^8.0.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "prisma": "^5.20.0",
+    "typescript": "^5.6.2"
+  }
+}
